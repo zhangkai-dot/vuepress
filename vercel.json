@@ -1,5 +1,6 @@
 {
   "builds": [
-    { "src": "*.js", "use": "@vercel/node-14.16.1" }
+    { "src": "*.js", "use": "@vercel/node-14.16.1" },
+    { "src": "vuepress.config.js", "use": "@vercel/node-14.16.1" }
   ]
 }
