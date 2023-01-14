@@ -8,34 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "前端",
-      "frontmatter": {
-        "title": "前端",
-        "sidebar": "auto"
-      },
-      "regularPath": "/Frontend/",
-      "relativePath": "Frontend/README.md",
-      "key": "v-42d6d252",
-      "path": "/Frontend/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "温馨提示",
-          "slug": "温馨提示"
-        },
-        {
-          "level": 2,
-          "title": "前端知识点",
-          "slug": "前端知识点"
-        },
-        {
-          "level": 3,
-          "title": "1. HTML",
-          "slug": "_1-html"
-        }
-      ]
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -64,6 +36,34 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-0ef745b4",
       "path": "/"
+    },
+    {
+      "title": "前端",
+      "frontmatter": {
+        "title": "前端",
+        "sidebar": "auto"
+      },
+      "regularPath": "/Frontend/",
+      "relativePath": "Frontend/README.md",
+      "key": "v-42d6d252",
+      "path": "/Frontend/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "温馨提示",
+          "slug": "温馨提示"
+        },
+        {
+          "level": 2,
+          "title": "前端知识点",
+          "slug": "前端知识点"
+        },
+        {
+          "level": 3,
+          "title": "1. HTML",
+          "slug": "_1-html"
+        }
+      ]
     },
     {
       "title": "工具",

@@ -9,18 +9,6 @@ import GlobalLayout from "D:\\Webstrom project\\vuepress-starter\\node_modules\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-42d6d252",
-    path: "/Frontend/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-42d6d252").then(next)
-    },
-  },
-  {
-    path: "/Frontend/index.html",
-    redirect: "/Frontend/"
-  },
-  {
     name: "v-0ef745b4",
     path: "/",
     component: GlobalLayout,
@@ -31,6 +19,18 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-42d6d252",
+    path: "/Frontend/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-42d6d252").then(next)
+    },
+  },
+  {
+    path: "/Frontend/index.html",
+    redirect: "/Frontend/"
   },
   {
     name: "v-5c0c3b89",
